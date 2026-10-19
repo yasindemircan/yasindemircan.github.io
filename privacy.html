@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gizlilik Politikası — Puzzle Arcade</title>
-<meta name="description" content="Puzzle Arcade uygulamasının gizlilik politikası / Privacy Policy.">
+<title>Gizlilik Politikası — Puzzle Pie</title>
+<meta name="description" content="Puzzle Pie uygulamasının (iOS ve Android) gizlilik politikası / Privacy Policy.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,115 +12,160 @@
 
 <header>
   <h1>Gizlilik Politikası</h1>
-  <p class="lede">Puzzle Arcade (iOS)</p>
-  <p class="updated">Yürürlük tarihi: 9 Eylül 2026 · <a href="#english">English version below</a></p>
+  <p class="lede">Puzzle Pie (iOS ve Android)</p>
+  <p class="updated">Yürürlük tarihi: 17 Ekim 2026 · <a href="#english">English version below</a></p>
   <nav>
     <a href="index.html">Ana sayfa</a>
     <a href="support.html">Destek</a>
   </nav>
 </header>
 
-<p>Bu politika, <strong>Puzzle Arcade</strong> iOS uygulamasının hangi verileri işlediğini, neden işlediğini ve bunun üzerinde ne kadar söz sahibi olduğunu açıklar. Uygulamayı geliştiren ve veri sorumlusu olan taraf <strong>Yasin Demircan</strong>'dır.</p>
+<p>Bu politika, <strong>Puzzle Pie</strong> uygulamasının (eski adıyla Puzzle Arcade) iOS ve Android sürümlerinin hangi verileri işlediğini, neden işlediğini ve bunun üzerinde ne kadar söz sahibi olduğunu açıklar. Uygulamayı geliştiren ve veri sorumlusu olan taraf <strong>Yasin Demircan</strong>'dır (Odd Cube Studio).</p>
 
 <h2>Kısaca</h2>
 <div class="card">
-  <p>Hesap açmanı istemiyoruz. Adını, e-postanı, telefon numaranı, konumunu veya kişi listeni <em>toplamıyoruz</em>. Oyun ilerlemen ve skorların telefonunun içinde kalır.</p>
-  <p>Uygulama ücretsizdir ve <strong>reklam göstermez</strong>. Seni izlemiyoruz: reklam kimliğin (IDFA) okunmuyor, verilerin başka şirketlerin verileriyle eşleştirilmiyor ve kimseye satılmıyor. Bu yüzden iOS'un "İzlemene izin ver" penceresi de hiç çıkmaz.</p>
-  <p>Cihazından dışarı çıkan tek şey, uygulamayı geliştirmek için tutulan <strong>isimsiz kullanım istatistiğidir</strong> (aşağıda 2. bölüm).</p>
+  <p>Hesap açmanı istemiyoruz. Adını, e-postanı, telefon numaranı, kesin konumunu veya kişi listeni <em>toplamıyoruz</em>. Oyun ilerlemen ve skorların cihazında kalır.</p>
+  <p>Uygulama ücretsizdir ve <strong>reklam gösterir</strong>. Reklamları Google AdMob sunar; AdMob bunun için cihaz kimliği gibi bazı verileri işler (2. bölüm). Kişiselleştirilmiş reklam için iOS'ta "İzlemene izin ver" sorusuyla, Avrupa'da ayrıca onay penceresiyle iznin istenir; izin vermezsen yine reklam görürsün ama kişiselleştirilmemiş olur.</p>
+  <p>İstersen reklamları uygulama içinden tek seferlik bir satın almayla kaldırabilirsin. Joker paketleri de satın alınabilir. Ödemeyi Apple ya da Google işler; kart bilgilerin bize gelmez.</p>
 </div>
 
 <h2>1. Uygulamanın kendisinin sakladığı veriler</h2>
-<p>Aşağıdakiler yalnızca <strong>senin cihazında</strong> saklanır (iOS UserDefaults). Bize veya bir sunucuya gönderilmez; uygulamayı silersen birlikte silinir:</p>
+<p>Aşağıdakiler <strong>senin cihazında</strong> saklanır. Bize ya da bizim bir sunucumuza gönderilmez; uygulamayı silersen birlikte silinir:</p>
 <ul>
   <li>Oyun içi en yüksek skorlar ve bölüm ilerlemesi</li>
-  <li>Hedef (rozet) sayaçları ve günlük ödül serisi</li>
-  <li>Ses, müzik, titreşim gibi ayar tercihleri</li>
+  <li>Joker sayıları, hedef (rozet) sayaçları ve günlük ödül serisi</li>
+  <li>Ses, müzik, titreşim, dil gibi ayar tercihleri</li>
   <li>Günlük seri hatırlatması tercihi (bildirim planlaması tamamen cihazda yapılır)</li>
 </ul>
+<p><strong>iOS — iCloud:</strong> iCloud'a giriş yaptıysan ilerlemen ve satın aldığın jokerlerin kaydı, cihazlarının arasında eşitlenmek üzere kendi iCloud hesabında saklanır. Bu veriyi Apple tutar; biz göremeyiz.</p>
 
 <h2>2. Üçüncü taraflara giden veriler</h2>
 
-<h3>Firebase Analytics (kullanım istatistiği)</h3>
-<p>Uygulamanın nasıl kullanıldığını anlamak için isimsiz olay kayıtları tutulur: hangi oyun başlatıldı, oyun kaç puanla bitti, seviye atlandı, rekor kırıldı, çark çevrildi, günlük ödül alındı. Bu kayıtlar <strong>kimliğine bağlı değildir</strong> ve içlerinde adın veya e-postan geçmez; hangi bölümlerin çok zor olduğunu görmek gibi amaçlarla toplu hâlde kullanılır.</p>
-<p>Kayıtlara, cihazına özel takma bir kurulum kimliği (<em>app instance ID</em>) eşlik eder. Bu kimlik <strong>reklam kimliği değildir</strong>, seni uygulama dışında takip etmek için kullanılmaz ve uygulamayı silince geçersiz kalır. Google Signals gibi kimliğe bağlayan özellikler <strong>kapalıdır</strong>.</p>
+<h3>Google AdMob (reklamlar — iOS ve Android)</h3>
+<p>Reklam göstermek, reklamların performansını ölçmek ve sahte tıklamaları önlemek için AdMob şu verileri işler: reklam kimliği (iOS'ta IDFA yalnızca izin verirsen; Android'de reklam kimliği), IP adresinden çıkarılan yaklaşık konum, reklamlarla etkileşim ve uygulama/cihaz bilgileri (model, işletim sistemi sürümü, tanılama verileri).</p>
+<ul>
+  <li><strong>iOS:</strong> İzin vermezsen IDFA okunmaz ve reklamlar kişiselleştirilmez.</li>
+  <li><strong>Avrupa Ekonomik Alanı, İngiltere ve İsviçre:</strong> reklam verisi işlenmeden önce Google'ın onay penceresiyle onayın istenir. Tercihini uygulamada <em>Ayarlar → Gizlilik Seçenekleri</em> bölümünden değiştirebilirsin.</li>
+  <li><strong>Android:</strong> Reklam kimliğini cihaz ayarlarından sıfırlayabilir veya silebilirsin.</li>
+</ul>
+<p>Google'ın bu verileri nasıl kullandığı: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
 
-<h3>Apple (Game Center)</h3>
-<p>Game Center'a giriş yaparsan skorların Apple'ın liderlik tablolarına gönderilir ve Game Center takma adın uygulama içinde gösterilir. Bu veriyi Apple işler, biz saklamayız. Game Center kullanmak zorunlu değildir. Bu sürümde uygulama içi satın alma yoktur.</p>
+<h3>Firebase (yalnız iOS)</h3>
+<ul>
+  <li><strong>Analytics:</strong> Uygulamanın nasıl kullanıldığını anlamak için oyun olayları kaydedilir (hangi oyun açıldı, kaç saniye oynandı, bölüm bitti, rekor kırıldı, çark çevrildi). Kayıtlarda adın veya e-postan yoktur; cihaza özel takma bir kurulum kimliği (<em>app instance ID</em>) eşlik eder. Google Signals gibi kimliğe bağlayan özellikler kapalıdır.</li>
+  <li><strong>Crashlytics:</strong> Uygulama çökerse çökme raporu (hata yeri, cihaz modeli, işletim sistemi sürümü) hatayı düzeltmek için gönderilir.</li>
+  <li><strong>Remote Config:</strong> Reklam sıklığı gibi ayarlar ve güncelleme bildirimi uzaktan alınır. Bu çekim seninle ilgili veri göndermez.</li>
+</ul>
+
+<h3>Apple ve Google (satın almalar, oyun hizmetleri)</h3>
+<ul>
+  <li><strong>Satın almalar:</strong> iOS'ta App Store, Android'de Google Play işler. Biz yalnızca hangi ürünün alındığını görürüz (jokeri hesabına yazmak için); ödeme bilgilerin bize gelmez.</li>
+  <li><strong>Game Center (iOS):</strong> Giriş yaparsan skorların Apple'ın liderlik tablolarına gönderilir ve takma adın uygulamada gösterilir. İsteğe bağlıdır.</li>
+  <li><strong>Google Play (Android):</strong> Uygulama içi değerlendirme ve güncelleme pencereleri Google Play tarafından gösterilir.</li>
+</ul>
 
 <h2>3. Verilerin özeti</h2>
 <table>
-  <tr><th>Veri</th><th>Kim işliyor</th><th>Neden</th><th>İzne bağlı mı</th></tr>
-  <tr><td>Oyun içi olaylar</td><td>Firebase Analytics</td><td>Ürünü geliştirmek</td><td>Hayır (kimliğe bağlı değil)</td></tr>
-  <tr><td>Kurulum kimliği (app instance ID)</td><td>Firebase Analytics</td><td>Olayları aynı cihaza ait saymak</td><td>Hayır (takip amaçlı kullanılmaz)</td></tr>
-  <tr><td>Game Center skorları</td><td>Apple</td><td>Liderlik tabloları</td><td>Evet (giriş yaparsan)</td></tr>
-  <tr><td>Skor, ilerleme, ayarlar</td><td>Kimse — cihazda kalır</td><td>Oyunu sürdürmek</td><td>—</td></tr>
+  <tr><th>Veri</th><th>Kim işliyor</th><th>Neden</th><th>Platform</th></tr>
+  <tr><td>Reklam kimliği, yaklaşık konum (IP), reklam etkileşimi, cihaz bilgisi</td><td>Google AdMob</td><td>Reklam, ölçüm, dolandırıcılık önleme</td><td>iOS, Android</td></tr>
+  <tr><td>Oyun içi olaylar, kurulum kimliği</td><td>Firebase Analytics</td><td>Ürünü geliştirmek</td><td>iOS</td></tr>
+  <tr><td>Çökme raporları</td><td>Firebase Crashlytics</td><td>Hataları düzeltmek</td><td>iOS</td></tr>
+  <tr><td>Satın alma kaydı</td><td>Apple / Google</td><td>Satın alınanı teslim etmek</td><td>iOS, Android</td></tr>
+  <tr><td>İlerleme ve joker kaydı</td><td>Apple iCloud (kendi hesabın)</td><td>Cihazlar arası eşitleme</td><td>iOS</td></tr>
+  <tr><td>Game Center skorları</td><td>Apple</td><td>Liderlik tabloları (isteğe bağlı)</td><td>iOS</td></tr>
+  <tr><td>Skor, ilerleme, ayarlar</td><td>Kimse — cihazda kalır</td><td>Oyunu sürdürmek</td><td>iOS, Android</td></tr>
 </table>
+<p>Verilerini <strong>satmıyoruz</strong>. Bizim tuttuğumuz bir kullanıcı veritabanı yoktur.</p>
 
 <h2>4. Haklarını nasıl kullanırsın</h2>
 <ul>
-  <li><strong>Hatırlatma bildirimlerini kapatmak:</strong> uygulama içinde <em>Ayarlar → Bildirimler</em>, ya da iOS Ayarlar'ından.</li>
-  <li><strong>Tüm yerel veriyi silmek:</strong> uygulamayı cihazından kaldır; skorlar, ilerleme ve sayaçlar da silinir.</li>
-  <li><strong>Google'daki verilerin için:</strong> talebini doğrudan Google'a iletebilirsin — <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</li>
+  <li><strong>Kişiselleştirilmiş reklamı kapatmak:</strong> iOS'ta <em>Ayarlar → Gizlilik ve Güvenlik → İzleme</em>; Android'de <em>Ayarlar → Google → Reklamlar</em>; Avrupa'da uygulama içindeki <em>Gizlilik Seçenekleri</em>.</li>
+  <li><strong>Reklamları tamamen kaldırmak:</strong> uygulama içindeki "Reklamları kaldır" satın alması.</li>
+  <li><strong>Hatırlatma bildirimlerini kapatmak:</strong> uygulama içinde <em>Ayarlar → Bildirimler</em> ya da cihaz ayarları.</li>
+  <li><strong>Tüm yerel veriyi silmek:</strong> uygulamayı cihazından kaldır. iOS'ta iCloud kaydını silmek için <em>Ayarlar → [adın] → iCloud → Depolamayı Yönet</em>.</li>
+  <li><strong>Google'daki verilerin için:</strong> <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</li>
 </ul>
 
 <h2>5. Çocuklar</h2>
-<p>Uygulama çocuklara yönelik olarak tasarlanmamıştır ve 13 yaşından küçük kullanıcılardan bilerek veri toplamaz. Çocuğunuzun veri paylaştığını düşünüyorsanız bize yazın, silinmesi için gereken adımları atalım.</p>
+<p>Uygulama çocuklara yönelik olarak tasarlanmamıştır ve 13 yaşından küçük kullanıcılardan bilerek veri toplamaz. Reklamlar genel izleyiciye uygun içerikle sınırlıdır. Çocuğunuzun veri paylaştığını düşünüyorsanız bize yazın, gereken adımları atalım.</p>
 
 <h2>6. Veri saklama ve güvenlik</h2>
-<p>Bizim tuttuğumuz bir kullanıcı veritabanı yoktur; uygulamanın verisi cihazda kalır. Üçüncü tarafların (Google, Apple) saklama süreleri kendi politikalarına tabidir. Uygulama ile bu servisler arasındaki tüm trafik şifreli bağlantı (HTTPS) üzerinden geçer.</p>
+<p>Uygulamanın verisi cihazda (iOS'ta isteğe bağlı olarak kendi iCloud hesabında) kalır. Üçüncü tarafların (Google, Apple) saklama süreleri kendi politikalarına tabidir. Uygulama ile bu servisler arasındaki tüm trafik şifreli bağlantı (HTTPS) üzerinden geçer.</p>
 
 <h2>7. Bu politikadaki değişiklikler</h2>
 <p>Politika değişirse bu sayfa güncellenir ve üstteki yürürlük tarihi değişir. Önemli bir değişiklikte uygulama içinde ayrıca bilgilendirme yapılır.</p>
 
 <h2>8. İletişim</h2>
-<p>Soru, talep veya silme isteği için: <a href="mailto:yasindemircan85@gmail.com">yasindemircan85@gmail.com</a></p>
+<p>Soru, talep veya silme isteği için: <a href="mailto:oddcubestudio@gmail.com">oddcubestudio@gmail.com</a></p>
 
 <hr>
 
 <h1 id="english">Privacy Policy (English)</h1>
-<p class="updated">Effective date: 9 September 2026</p>
+<p class="updated">Effective date: 17 October 2026</p>
 
-<p>This policy explains what data the <strong>Puzzle Arcade</strong> iOS app processes, why, and what control you have over it. The developer and data controller is <strong>Yasin Demircan</strong>.</p>
+<p>This policy explains what data the iOS and Android versions of <strong>Puzzle Pie</strong> (formerly Puzzle Arcade) process, why, and what control you have over it. The developer and data controller is <strong>Yasin Demircan</strong> (Odd Cube Studio).</p>
 
 <h2>In short</h2>
 <div class="card">
   <p>There is no account. We do <em>not</em> collect your name, email, phone number, precise location, or contacts. Your game progress and scores stay on your device.</p>
-  <p>The app is free and shows <strong>no ads</strong>. We do not track you: your advertising identifier (IDFA) is never read, your data is never matched with data from other companies, and nothing is sold. This is why iOS never shows you the "Allow tracking" prompt.</p>
-  <p>The only thing that leaves your device is <strong>anonymous usage statistics</strong> used to improve the app (section 2).</p>
+  <p>The app is free and <strong>shows ads</strong>, served by Google AdMob, which processes some data such as a device identifier (section 2). For personalized ads you are asked for permission — by the "Allow tracking" prompt on iOS and, in Europe, by a consent form. If you decline, you still see ads, but they are not personalized.</p>
+  <p>You can remove ads with a one-time in-app purchase, and buy joker packs. Payments are handled by Apple or Google; we never see your card details.</p>
 </div>
 
 <h2>1. Data stored by the app itself</h2>
-<p>Stored only <strong>on your device</strong> (iOS UserDefaults), never sent to us or any server, and deleted when you delete the app: high scores and level progress, achievement counters and daily-streak state, sound/music/haptics preferences, and your streak-reminder preference (reminders are scheduled entirely on the device).</p>
+<p>Stored <strong>on your device</strong>, never sent to us or to a server of ours, and deleted when you delete the app: high scores and level progress, joker counts, achievement counters and daily-streak state, sound/music/haptics/language preferences, and your streak-reminder preference (reminders are scheduled entirely on the device).</p>
+<p><strong>iOS — iCloud:</strong> if you are signed in to iCloud, your progress and a record of purchased jokers are stored in your own iCloud account so they sync between your devices. Apple holds this data; we cannot see it.</p>
 
 <h2>2. Data shared with third parties</h2>
-<h3>Firebase Analytics (usage statistics)</h3>
-<p>Anonymous event logs are recorded: game started, game over with score, level up, new high score, wheel spun, daily reward claimed. These are <strong>not linked to your identity</strong> and contain no name or email.</p>
-<p>Each log carries a pseudonymous per-install identifier (<em>app instance ID</em>). It is <strong>not an advertising identifier</strong>, is never used to track you across other apps or websites, and becomes void when you delete the app. Identity-linking features such as Google Signals are <strong>disabled</strong>.</p>
 
-<h3>Apple (Game Center)</h3>
-<p>If you sign in to Game Center, your scores are submitted to Apple's leaderboards and your Game Center nickname is displayed in the app. Apple processes this data; we do not store it. Game Center is optional. This version has no in-app purchases.</p>
+<h3>Google AdMob (ads — iOS and Android)</h3>
+<p>To show ads, measure their performance and prevent fraud, AdMob processes: the advertising identifier (on iOS the IDFA only if you allow tracking; on Android the advertising ID), approximate location derived from your IP address, ad interactions, and app/device information (model, OS version, diagnostics).</p>
+<ul>
+  <li><strong>iOS:</strong> if you decline tracking, the IDFA is not read and ads are not personalized.</li>
+  <li><strong>EEA, UK and Switzerland:</strong> your consent is requested through Google's consent form before ad data is processed. You can change your choice in the app under <em>Settings → Privacy Options</em>.</li>
+  <li><strong>Android:</strong> you can reset or delete your advertising ID in device settings.</li>
+</ul>
+<p>How Google uses this data: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+
+<h3>Firebase (iOS only)</h3>
+<ul>
+  <li><strong>Analytics:</strong> game events (game opened, seconds played, level finished, new high score, wheel spun) to understand how the app is used. No name or email; each log carries a pseudonymous per-install identifier (<em>app instance ID</em>). Identity-linking features such as Google Signals are disabled.</li>
+  <li><strong>Crashlytics:</strong> if the app crashes, a crash report (where it failed, device model, OS version) is sent so we can fix it.</li>
+  <li><strong>Remote Config:</strong> settings such as ad frequency and update notices are fetched remotely. This does not send data about you.</li>
+</ul>
+
+<h3>Apple and Google (purchases, game services)</h3>
+<ul>
+  <li><strong>Purchases:</strong> handled by the App Store on iOS and Google Play on Android. We only learn which product was bought (to credit your jokers); we never receive payment details.</li>
+  <li><strong>Game Center (iOS):</strong> if you sign in, your scores go to Apple's leaderboards and your nickname is shown in the app. Optional.</li>
+  <li><strong>Google Play (Android):</strong> in-app review and update prompts are shown by Google Play.</li>
+</ul>
+
+<p>We do <strong>not sell</strong> your data, and we operate no user database.</p>
 
 <h2>3. Your choices</h2>
 <ul>
-  <li><strong>Turn off reminder notifications:</strong> in-app <em>Settings → Notifications</em>, or from iOS Settings.</li>
-  <li><strong>Delete all local data:</strong> delete the app from your device.</li>
+  <li><strong>Turn off personalized ads:</strong> iOS <em>Settings → Privacy &amp; Security → Tracking</em>; Android <em>Settings → Google → Ads</em>; in Europe, the in-app <em>Privacy Options</em>.</li>
+  <li><strong>Remove ads entirely:</strong> the in-app "Remove ads" purchase.</li>
+  <li><strong>Turn off reminder notifications:</strong> in-app <em>Settings → Notifications</em>, or device settings.</li>
+  <li><strong>Delete all local data:</strong> delete the app. On iOS, remove the iCloud copy under <em>Settings → [your name] → iCloud → Manage Storage</em>.</li>
   <li><strong>Data held by Google:</strong> see <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a>.</li>
 </ul>
 
 <h2>4. Children</h2>
-<p>The app is not directed at children and does not knowingly collect data from anyone under 13. If you believe a child has provided data, contact us and we will take the necessary steps.</p>
+<p>The app is not directed at children and does not knowingly collect data from anyone under 13. Ads are limited to content suitable for general audiences. If you believe a child has provided data, contact us and we will take the necessary steps.</p>
 
 <h2>5. Retention and security</h2>
-<p>We operate no user database; app data stays on the device. Retention by third parties (Google, Apple) is governed by their own policies. All traffic between the app and these services uses encrypted connections (HTTPS).</p>
+<p>App data stays on the device (and, optionally on iOS, in your own iCloud account). Retention by third parties (Google, Apple) is governed by their own policies. All traffic between the app and these services uses encrypted connections (HTTPS).</p>
 
 <h2>6. Changes</h2>
 <p>If this policy changes, this page and the effective date above are updated. Material changes are also announced inside the app.</p>
 
 <h2>7. Contact</h2>
-<p><a href="mailto:yasindemircan85@gmail.com">yasindemircan85@gmail.com</a></p>
+<p><a href="mailto:oddcubestudio@gmail.com">oddcubestudio@gmail.com</a></p>
 
 <footer>
-  <p><a href="index.html">Puzzle Arcade</a> · <a href="support.html">Destek / Support</a></p>
+  <p><a href="index.html">Puzzle Pie</a> · <a href="support.html">Destek / Support</a></p>
 </footer>
 
 </div>
